@@ -1,0 +1,27 @@
+/*Google fontを使うためのやつ*/
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&display=swap');
+        
+body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(241, 241, 241, 0.979);
+}
+
+/*K-Noteの部分を緑色にする*/
+.application_name {
+    color: rgb(71, 211, 53);
+}
+
+/*ログイン説明文章全体のサイズを挙げて、フォントを変えて中央ぞろえに*/
+.welcom_message{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Kiwi Maru', serif;
+}
+
+
+#firebaseui-auth{
+    font-size: 300px;
+}
